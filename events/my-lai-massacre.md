@@ -2,6 +2,7 @@
 title: My Lai Massacre
 date: 1968-03-16
 image: /img/my-lai-massacre.jpg
+imageAttribution: Ronald L. Haeberle
 sourceUrl: https://en.wikipedia.org/wiki/My_Lai_massacre
 tags: event
 ---

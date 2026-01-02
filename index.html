@@ -91,6 +91,9 @@
                 <h2>{{ post.data.title }}</h2>
                 {% if post.data.image %}
                 <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="timeline-image">
+                {% if post.data.imageAttribution %}
+                <div class="image-attribution">Image by {{ post.data.imageAttribution }}</div>
+                {% endif %}
                 {% endif %}
                 <p>{{ post.content }}</p>
                 {% if post.data.sourceUrl %}

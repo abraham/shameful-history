@@ -13,10 +13,7 @@ permalink: 404.html
   </head>
 
   <body class="antialiased">
-    <nav class="top-bar">
-      <a href="/" class="suggest-link">Home</a>
-      {% include "theme-toggle.njk" %}
-    </nav>
+    {% include "nav.njk" %}
     <div class="container">
       <header class="site-header">
         <h1 class="site-title">404</h1>
@@ -27,5 +24,6 @@ permalink: 404.html
         </p>
       </header>
     </div>
+    {% include "footer.njk" %}
   </body>
 </html>

@@ -1,0 +1,9 @@
+<nav class="top-bar">
+  {% if page.url == '/404.html' %}
+    <a href="/" class="suggest-link">Home</a>
+  {% else %}
+    <a href="https://forms.gle/2VJLRZYGCywDE7jZ8" class="suggest-link" target="_blank" rel="noopener noreferrer">
+      Suggest Event</a>
+  {% endif %}
+  {% include "theme-toggle.njk" %}
+</nav>

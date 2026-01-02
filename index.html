@@ -16,72 +16,16 @@
   </head>
 
   <body class="antialiased">
-    <nav class="top-bar">
-      <a
-        href="https://forms.gle/2VJLRZYGCywDE7jZ8"
-        class="suggest-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Suggest Event</a
-      >
-      {% include "theme-toggle.njk" %}
-    </nav>
+    {% include "nav.njk" %}
 
     <div class="container">
-      <header class="site-header">
-        <h1 class="site-title">Shameful History</h1>
-        <p class="site-subtitle">of the United States of America</p>
-        <p>
-          A timeline of events where the US government did something shameful
-          or, through inaction, allowed something shameful to happen.
-        </p>
-      </header>
+      {% include "header.njk" %}
 
       <div class="timeline">
-        {% for post in collections.event reversed %}
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <span class="date"
-              >{{ post.date | readableDate: post.data.endDate }}</span
-            >
-            <h2>{{ post.data.title }}</h2>
-            {% if post.data.image %}
-            <img
-              src="{{ post.data.image }}"
-              alt="{{ post.data.title }}"
-              class="timeline-image"
-            />
-            {% if post.data.imageAttribution %}
-            <div class="image-attribution">
-              Image by {{ post.data.imageAttribution }}
-            </div>
-            {% endif %} {% endif %}
-            <p>{{ post.content }}</p>
-            {% if post.data.sourceUrl %}
-            <a
-              href="{{ post.data.sourceUrl }}"
-              class="source-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Source</a
-            >
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
+        {% for post in collections.event reversed %} {% include
+        "timeline-item.njk" %} {% endfor %}
       </div>
     </div>
-    <footer class="site-footer">
-      <p>
-        Text is available under the
-        <a
-          href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Creative Commons Attribution-ShareAlike 4.0 License</a
-        >
-      </p>
-    </footer>
+    {% include "footer.njk" %}
   </body>
 </html>

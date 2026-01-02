@@ -8,13 +8,16 @@
 .site-title {
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom: 0.5rem; /* Reduced from default to keep subtitle close */
+    margin-bottom: 0.5rem;
+    /* Reduced from default to keep subtitle close */
     letter-spacing: -0.02em;
     color: var(--text-primary);
-    text-shadow: 0 0 40px var(--glow-primary); 
+    text-shadow: 0 0 40px var(--glow-primary);
     background-clip: text;
-    -webkit-background-clip: text; /* Safari/Chrome requirement */
-    -webkit-text-fill-color: var(--text-primary); /* Ensure text is visible */
+    -webkit-background-clip: text;
+    /* Safari/Chrome requirement */
+    -webkit-text-fill-color: var(--text-primary);
+    /* Ensure text is visible */
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -23,6 +26,7 @@
     color: var(--text-secondary);
     font-weight: 300;
     margin-top: 0;
+    margin-bottom: 2rem;
     letter-spacing: 0.05em;
     opacity: 0.9;
     transition: color 0.3s ease;
@@ -32,7 +36,7 @@
     .site-title {
         font-size: 2.5rem;
     }
-    
+
     .site-subtitle {
         font-size: 1rem;
     }

@@ -1,4 +1,4 @@
-import Image from '@11ty/eleventy-img';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('bundle.css');
@@ -6,30 +6,19 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('favicon.png');
 
-  eleventyConfig.addAsyncShortcode(
-    'image',
-    async function (src, alt, sizes = '100vw') {
-      if (alt === undefined) {
-        // You bet we throw an error on missing alt (alt="" works okay)
-        throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-      }
-
-      let metadata = await Image(src, {
-        widths: [300, 600, 'auto'],
-        formats: ['avif', 'webp', 'jpeg', 'svg'],
-        outputDir: './_site/img/',
-      });
-
-      let imageAttributes = {
-        alt,
-        sizes,
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // Output formats
+    // formats: ['avif', 'webp', 'jpeg', 'svg'],
+    // Output widths
+    widths: [300, 600],
+    // HTML attributes
+    htmlOptions: {
+      imgAttributes: {
         loading: 'lazy',
         decoding: 'async',
-      };
-
-      return Image.generateHTML(metadata, imageAttributes);
+      },
     },
-  );
+  });
 
   eleventyConfig.addFilter('readableDate', (dateObj, endDate) => {
     const options = {

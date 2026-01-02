@@ -6,15 +6,35 @@
     right: 0;
     height: 70px;
     display: flex;
-    justify-content: flex-end;
-    /* Ensures right alignment */
+    justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
     z-index: 100;
     background: transparent;
-    /* Cleaner look, relying on toggle bg */
     pointer-events: none;
-    /* Let clicks pass through the empty bar */
+}
+
+.suggest-link {
+    pointer-events: auto;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: 99px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.suggest-link:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0.1);
 }
 
 .theme-toggle {

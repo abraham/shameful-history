@@ -1,7 +1,7 @@
 ---
 title: Overturning of Roe v. Wade
 date: 2022-06-24
-image: /img/abortion-laws-pre-1973.svg
+image: /events/overturning-roe-v-wade/image.svg
 imageAttribution: Wikimedia Commons
 sourceUrl: https://en.wikipedia.org/wiki/Roe_v._Wade
 tags:

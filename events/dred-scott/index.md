@@ -3,7 +3,7 @@ title: Dred Scott v. Sandford
 date: 1857-03-06
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford
-image: /img/dred-scott.jpg
+image: /events/dred-scott/image.jpg
 imageAttribution: Wikimedia Commons (Portrait of Dred Scott)
 ---
 

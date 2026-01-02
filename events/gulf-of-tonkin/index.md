@@ -1,7 +1,7 @@
 ---
 title: Gulf of Tonkin Incident
 date: 1964-08-02
-image: /img/gulf-of-tonkin.jpg
+image: /events/gulf-of-tonkin/image.jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
 tags:

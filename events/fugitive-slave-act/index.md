@@ -3,7 +3,7 @@ title: Fugitive Slave Act of 1850
 date: 1850-09-18
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Fugitive_Slave_Act_of_1850
-image: /img/fugitive-slave-act.jpg
+image: /events/fugitive-slave-act/image.jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

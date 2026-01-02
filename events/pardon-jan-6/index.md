@@ -1,7 +1,7 @@
 ---
 title: Pardon of January 6 Defendants
 date: 2025-01-20
-image: /img/trump-signing-orders.jpg
+image: /events/pardon-jan-6/image.jpg
 imageAttribution: The White House (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants
 tags:

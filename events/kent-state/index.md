@@ -3,7 +3,7 @@ title: Kent State Shootings
 date: 1970-05-04
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Kent_State_shootings
-image: /img/kent-state.jpg
+image: /events/kent-state/image.jpg
 imageAttribution: John Filo (Wikimedia Commons)
 ---
 

@@ -3,7 +3,7 @@ title: Indian Removal Act
 date: 1830-05-28
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Indian_Removal_Act
-image: /img/indian-removal-act.jpg
+image: /events/indian-removal-act/image.jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

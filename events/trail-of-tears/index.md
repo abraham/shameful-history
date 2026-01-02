@@ -4,7 +4,7 @@ date: 1838-06-01
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Trail_of_Tears
 endDate: 1850-01-01
-image: /img/trail-of-tears.png
+image: /events/trail-of-tears/image.png
 imageAttribution: Nikater
 ---
 

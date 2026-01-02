@@ -4,7 +4,7 @@ date: 1848-07-19
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Women%27s_suffrage_in_the_United_States
 endDate: 1920-08-18
-image: /img/suffragists-parade.jpg
+image: /events/womens-suffrage/image.jpg
 imageAttribution: Wikimedia Commons
 ---
 

@@ -4,7 +4,7 @@ date: 1942-02-19
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Internment_of_Japanese_Americans
 endDate: 1946-03-20
-image: /img/japanese-internment.jpg
+image: /events/internment-japanese-americans/image.jpg
 imageAttribution: NARA
 ---
 

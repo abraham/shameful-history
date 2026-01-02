@@ -3,7 +3,7 @@ title: Abu Ghraib Torture and Prisoner Abuse
 date: 2004-04-28
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
-image: /img/abu-ghraib.jpg
+image: /events/abu-ghraib/image.jpg
 imageAttribution: U.S. Army (Wikimedia Commons)
 ---
 

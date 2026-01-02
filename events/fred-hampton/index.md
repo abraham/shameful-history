@@ -3,7 +3,7 @@ title: Assassination of Fred Hampton
 date: 1969-12-04
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Fred_Hampton
-image: /img/fred-hampton-body.jpg
+image: /events/fred-hampton/image.jpg
 imageAttribution: Wikimedia Commons
 ---
 

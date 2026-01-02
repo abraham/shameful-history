@@ -3,7 +3,7 @@ title: Plessy v. Ferguson
 date: 1896-05-18
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Plessy_v._Ferguson
-image: /img/plessy-ferguson.jpg
+image: /events/plessy-ferguson/image.jpg
 imageAttribution: Russell Lee (Wikimedia Commons)
 ---
 

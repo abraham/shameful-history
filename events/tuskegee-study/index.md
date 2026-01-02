@@ -1,7 +1,7 @@
 ---
 title: Tuskegee Syphilis Study
 date: 1932-01-01
-image: /img/tuskegee-study.jpg
+image: /events/tuskegee-study/image.jpg
 imageAttribution: National Archives
 sourceUrl: https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study
 endDate: 1972-11-16

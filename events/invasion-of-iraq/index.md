@@ -3,7 +3,7 @@ title: Invasion of Iraq
 date: 2003-03-20
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/2003_invasion_of_Iraq
-image: /img/colin-powell-anthrax.jpg
+image: /events/invasion-of-iraq/image.jpg
 imageAttribution: U.S. State Department
 ---
 

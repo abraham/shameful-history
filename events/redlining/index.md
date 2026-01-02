@@ -4,7 +4,7 @@ date: 1934-06-27
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Redlining
 endDate: 1968-04-11
-image: /img/redlining-map-philadelphia.jpg
+image: /events/redlining/image.jpg
 imageAttribution: Home Owners' Loan Corporation
 ---
 

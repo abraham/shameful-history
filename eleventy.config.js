@@ -1,4 +1,5 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import eleventyPluginFeathericons from 'eleventy-plugin-feathericons';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('bundle.css');
@@ -6,6 +7,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('favicon.png');
 
+  eleventyConfig.addPlugin(eleventyPluginFeathericons);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // Output formats
     // formats: ['avif', 'webp', 'jpeg', 'svg'],

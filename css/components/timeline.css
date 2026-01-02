@@ -172,7 +172,7 @@
 
     .timeline-item {
         width: 100%;
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-right: 0;
     }
 
@@ -180,11 +180,17 @@
     .timeline-item:nth-child(even) {
         left: 0;
         text-align: left;
+        padding-left: 1rem;
+        padding-right: 0;
     }
 
     .timeline-item:nth-child(odd)::after,
     .timeline-item:nth-child(even)::after {
         left: -9px;
         right: auto;
+    }
+
+    .timeline-content {
+        padding: 0.5rem 0.5rem;
     }
 }

@@ -5,8 +5,6 @@ export default function (eleventyConfig) {
     eleventyConfig.addFilter("readableDate", (dateObj, endDate) => {
         const options = {
             year: 'numeric',
-            month: 'short',
-            day: 'numeric',
             timeZone: 'UTC'
         };
         const start = dateObj.toLocaleDateString('en-US', options);

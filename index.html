@@ -90,6 +90,10 @@
                 <span class="date">{{ post.date | readableDate }}</span>
                 <h2>{{ post.data.title }}</h2>
                 <p>{{ post.content }}</p>
+                {% if post.data.sourceUrl %}
+                <a href="{{ post.data.sourceUrl }}" class="source-link" target="_blank"
+                    rel="noopener noreferrer">Source</a>
+                {% endif %}
             </div>
         </div>
         {% endfor %}

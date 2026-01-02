@@ -288,6 +288,22 @@ header p {
 .timeline-content p {
     color: var(--text-secondary);
     line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+.source-link {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.source-link:hover {
+    opacity: 1;
+    text-decoration: underline;
 }
 
 /* Animation Delays */

@@ -1,6 +1,7 @@
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addFilter("readableDate", (dateObj) => {
         return dateObj.toLocaleDateString('en-US', {
             year: 'numeric',

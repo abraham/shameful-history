@@ -89,6 +89,9 @@
             <div class="timeline-content">
                 <span class="date">{{ post.date | readableDate }}</span>
                 <h2>{{ post.data.title }}</h2>
+                {% if post.data.image %}
+                <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="timeline-image">
+                {% endif %}
                 <p>{{ post.content }}</p>
                 {% if post.data.sourceUrl %}
                 <a href="{{ post.data.sourceUrl }}" class="source-link" target="_blank"

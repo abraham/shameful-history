@@ -113,6 +113,8 @@
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 0.5rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .source-link {

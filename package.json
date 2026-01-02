@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/abraham/shameful-history/issues"
   },
-  "homepage": "https://github.com/abraham/shameful-history#readme"
+  "homepage": "https://github.com/abraham/shameful-history#readme",
+  "type": "module"
 }

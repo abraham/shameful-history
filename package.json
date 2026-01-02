@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
+    "format": "npx prettier . --write",
+    "lint": "npx prettier . --check",
     "deploy": "npx firebase deploy"
   },
   "repository": {
@@ -25,6 +27,7 @@
     "@11ty/eleventy-img": "^6.0.4"
   },
   "devDependencies": {
-    "firebase-tools": "^15.1.0"
+    "firebase-tools": "^15.1.0",
+    "prettier": "3.7.4"
   }
 }

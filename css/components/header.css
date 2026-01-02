@@ -1,17 +1,39 @@
-header {
+.site-header {
     text-align: center;
-    margin-bottom: 4rem;
+    padding: 6rem 1rem 4rem;
+    position: relative;
+    z-index: 1;
 }
 
-header h1 {
-    font-size: 3rem;
-    font-weight: 700;
+.site-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem; /* Reduced from default to keep subtitle close */
+    letter-spacing: -0.02em;
     color: var(--text-primary);
-    margin-bottom: 0.5rem;
-    letter-spacing: -1px;
+    text-shadow: 0 0 40px var(--glow-primary); 
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome requirement */
+    -webkit-text-fill-color: var(--text-primary); /* Ensure text is visible */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-header p {
-    color: var(--text-secondary);
+.site-subtitle {
     font-size: 1.25rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    margin-top: 0;
+    letter-spacing: 0.05em;
+    opacity: 0.9;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 640px) {
+    .site-title {
+        font-size: 2.5rem;
+    }
+    
+    .site-subtitle {
+        font-size: 1rem;
+    }
 }

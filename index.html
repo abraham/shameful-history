@@ -84,51 +84,15 @@
     </header>
 
     <div class="timeline">
-        <!-- Event 1 -->
+        {% for post in collections.event reversed %}
         <div class="timeline-item">
             <div class="timeline-content">
-                <span class="date">May 12, 2025</span>
-                <h2>The Great Refactor</h2>
-                <p>Rewrote the entire codebase in Rust... realized we don't know Rust... rewrote it back to JavaScript.
-                </p>
+                <span class="date">{{ post.date | readableDate }}</span>
+                <h2>{{ post.data.title }}</h2>
+                <p>{{ post.content }}</p>
             </div>
         </div>
-
-        <!-- Event 2 -->
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="date">Nov 01, 2024</span>
-                <h2>AI Takeover</h2>
-                <p>The AI assistant wrote this timeline entry. Humans are now obsolete for documentation purposes.</p>
-            </div>
-        </div>
-
-        <!-- Event 3 -->
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="date">Jan 15, 2024</span>
-                <h2>Project Kickoff</h2>
-                <p>We started with high hopes, clean architecture, and fully charged laptops.</p>
-            </div>
-        </div>
-
-        <!-- Event 4 -->
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="date">Dec 25, 2023</span>
-                <h2>First Commit</h2>
-                <p>Initial commit. "Hello World". It was the best of times, it was the worst of times.</p>
-            </div>
-        </div>
-
-        <!-- Event 5 -->
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="date">Dec 01, 2023</span>
-                <h2>Idea Conception</h2>
-                <p>A napkin drawing at a coffee shop. It looked like a potato, but we called it "The Architecture".</p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
 

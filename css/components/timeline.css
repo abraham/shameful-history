@@ -1,196 +1,204 @@
 /* Timeline */
 .timeline {
-    position: relative;
-    padding: 2rem 0;
+  position: relative;
+  padding: 2rem 0;
 }
 
 /* Vertical Line */
 .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(to bottom, transparent, var(--accent) 20%, var(--accent) 80%, transparent);
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--accent) 20%,
+    var(--accent) 80%,
+    transparent
+  );
 }
 
 .timeline-image {
-    width: 100%;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: transform 0.3s ease;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
 }
 
 .image-attribution {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    margin-top: -0.5rem;
-    margin-bottom: 1rem;
-    text-align: right;
-    font-style: italic;
-    opacity: 0.8;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 .timeline-image:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .timeline-item {
-    padding: 2rem 0;
-    position: relative;
-    width: 50%;
-    opacity: 0;
-    animation: fadeIn 0.5s ease forwards;
+  padding: 2rem 0;
+  position: relative;
+  width: 50%;
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
 }
 
 @keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .timeline-item:nth-child(odd) {
-    left: 0;
-    text-align: right;
-    padding-right: 3rem;
-    transform-origin: right center;
+  left: 0;
+  text-align: right;
+  padding-right: 3rem;
+  transform-origin: right center;
 }
 
 .timeline-item:nth-child(even) {
-    left: 50%;
-    padding-left: 3rem;
-    transform-origin: left center;
+  left: 50%;
+  padding-left: 3rem;
+  transform-origin: left center;
 }
 
 /* Dot on the line */
 .timeline-item::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 16px;
-    height: 16px;
-    background: var(--bg-color);
-    border: 2px solid var(--accent);
-    border-radius: 50%;
-    z-index: 1;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: var(--bg-color);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
 }
 
 .timeline-item:nth-child(odd)::after {
-    right: -9px;
-    /* Half of width (8) + 1 for border centering adjustments */
+  right: -9px;
+  /* Half of width (8) + 1 for border centering adjustments */
 }
 
 .timeline-item:nth-child(even)::after {
-    left: -9px;
+  left: -9px;
 }
 
 .timeline-item:hover::after {
-    background: var(--accent);
-    box-shadow: 0 0 20px var(--accent-glow);
-    transform: scale(1.2);
+  background: var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+  transform: scale(1.2);
 }
 
 /* Card */
 .timeline-content {
-    padding: 0.5rem 2rem;
-    position: relative;
-    transition: transform 0.3s ease;
+  padding: 0.5rem 2rem;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
 .timeline-content h2 {
-    margin-bottom: 0.5rem;
-    color: var(--text-primary);
-    font-size: 1.5rem;
-    font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .date {
-    display: inline-block;
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .timeline-content p {
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 0.5rem;
-    text-align: justify;
-    text-justify: inter-word;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .source-link {
-    display: inline-block;
-    font-size: 0.8rem;
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0.8;
-    transition: opacity 0.2s ease;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
 }
 
 .source-link:hover {
-    opacity: 1;
-    text-decoration: underline;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 /* Animation Delays */
 .timeline-item:nth-child(1) {
-    animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .timeline-item:nth-child(2) {
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .timeline-item:nth-child(3) {
-    animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .timeline-item:nth-child(4) {
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .timeline-item:nth-child(5) {
-    animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-    .timeline::before {
-        left: 0;
-        /* Move line to left */
-    }
+  .timeline::before {
+    left: 0;
+    /* Move line to left */
+  }
 
-    .timeline-item {
-        width: 100%;
-        padding-left: 1rem;
-        padding-right: 0;
-    }
+  .timeline-item {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
 
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even) {
-        left: 0;
-        text-align: left;
-        padding-left: 1rem;
-        padding-right: 0;
-    }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    left: 0;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
 
-    .timeline-item:nth-child(odd)::after,
-    .timeline-item:nth-child(even)::after {
-        left: -9px;
-        right: auto;
-    }
+  .timeline-item:nth-child(odd)::after,
+  .timeline-item:nth-child(even)::after {
+    left: -9px;
+    right: auto;
+  }
 
-    .timeline-content {
-        padding: 0.5rem 0.5rem;
-    }
+  .timeline-content {
+    padding: 0.5rem 0.5rem;
+  }
 }

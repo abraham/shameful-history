@@ -6,4 +6,5 @@ sourceUrl: https://en.wikipedia.org/wiki/2003_invasion_of_Iraq
 image: /img/colin-powell-anthrax.jpg
 imageAttribution: U.S. State Department
 ---
+
 A United States-led invasion that toppled the government of Saddam Hussein. The invasion was based on flawed intelligence claiming Iraq possessed weapons of mass destruction (WMDs) and posed an immediate threat. No stockpiles of WMDs were ever found.

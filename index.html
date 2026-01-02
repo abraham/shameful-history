@@ -15,38 +15,40 @@
     }
 </script>
 <script>
-    const buttons = {
-        light: document.getElementById('theme-light'),
-        auto: document.getElementById('theme-auto'),
-        dark: document.getElementById('theme-dark')
-    };
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttons = {
+            light: document.getElementById('theme-light'),
+            auto: document.getElementById('theme-auto'),
+            dark: document.getElementById('theme-dark')
+        };
 
-    function updateActiveButton(theme) {
-        Object.values(buttons).forEach(btn => btn.classList.remove('active'));
-        if (!theme) {
-            buttons.auto.classList.add('active');
-        } else {
-            buttons[theme].classList.add('active');
+        function updateActiveButton(theme) {
+            Object.values(buttons).forEach(btn => btn.classList.remove('active'));
+            if (!theme) {
+                buttons.auto.classList.add('active');
+            } else {
+                buttons[theme].classList.add('active');
+            }
         }
-    }
 
-    function setTheme(theme) {
-        if (theme) {
-            document.documentElement.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
-        } else {
-            document.documentElement.removeAttribute('data-theme');
-            localStorage.removeItem('theme');
+        function setTheme(theme) {
+            if (theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.removeItem('theme');
+            }
+            updateActiveButton(theme);
         }
-        updateActiveButton(theme);
-    }
 
-    buttons.light.addEventListener('click', () => setTheme('light'));
-    buttons.auto.addEventListener('click', () => setTheme(null));
-    buttons.dark.addEventListener('click', () => setTheme('dark'));
+        buttons.light.addEventListener('click', () => setTheme('light'));
+        buttons.auto.addEventListener('click', () => setTheme(null));
+        buttons.dark.addEventListener('click', () => setTheme('dark'));
 
-    // Init active state
-    updateActiveButton(localStorage.getItem('theme'));
+        // Init active state
+        updateActiveButton(localStorage.getItem('theme'));
+    });
 </script>
 
 <body class="antialiased">

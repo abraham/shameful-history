@@ -264,21 +264,16 @@ header p {
 
 /* Card */
 .timeline-content {
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+    padding: 0.5rem 2rem;
+    position: relative;
+    transition: transform 0.3s ease;
 }
 
-.timeline-item:hover .timeline-content {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+.timeline-content h2 {
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .date {
@@ -349,8 +344,5 @@ header p {
         right: auto;
     }
 
-    .timeline-item:nth-child(odd) .timeline-content,
-    .timeline-item:nth-child(even) .timeline-content {
-        margin-left: 1rem;
-    }
+    /* content */
 }

@@ -7,13 +7,21 @@ export default function (eleventyConfig) {
             year: 'numeric',
             timeZone: 'UTC'
         };
-        const start = dateObj.toLocaleDateString('en-US', options);
+
         if (endDate) {
+            const start = dateObj.toLocaleDateString('en-US', options);
             // Handle both Date objects and string dates
             const endObj = (endDate instanceof Date) ? endDate : new Date(endDate);
             const end = endObj.toLocaleDateString('en-US', options);
             return `${start} - ${end}`;
         }
-        return start;
+
+        // Single day event - show full date
+        return dateObj.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            timeZone: 'UTC'
+        });
     });
 };

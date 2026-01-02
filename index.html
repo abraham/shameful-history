@@ -15,50 +15,6 @@
     <link rel="stylesheet" href="bundle.css" />
   </head>
 
-  <script>
-    // Immediate theme check to prevent flash
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      document.documentElement.setAttribute('data-theme', savedTheme);
-    }
-  </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const buttons = {
-        light: document.getElementById('theme-light'),
-        auto: document.getElementById('theme-auto'),
-        dark: document.getElementById('theme-dark'),
-      };
-
-      function updateActiveButton(theme) {
-        Object.values(buttons).forEach((btn) => btn.classList.remove('active'));
-        if (!theme) {
-          buttons.auto.classList.add('active');
-        } else {
-          buttons[theme].classList.add('active');
-        }
-      }
-
-      function setTheme(theme) {
-        if (theme) {
-          document.documentElement.setAttribute('data-theme', theme);
-          localStorage.setItem('theme', theme);
-        } else {
-          document.documentElement.removeAttribute('data-theme');
-          localStorage.removeItem('theme');
-        }
-        updateActiveButton(theme);
-      }
-
-      buttons.light.addEventListener('click', () => setTheme('light'));
-      buttons.auto.addEventListener('click', () => setTheme(null));
-      buttons.dark.addEventListener('click', () => setTheme('dark'));
-
-      // Init active state
-      updateActiveButton(localStorage.getItem('theme'));
-    });
-  </script>
-
   <body class="antialiased">
     <nav class="top-bar">
       <a
@@ -69,17 +25,7 @@
       >
         Suggest Event</a
       >
-      <div class="theme-toggle">
-        <button id="theme-light" aria-label="Light Mode">
-          {% feather "sun" %}
-        </button>
-        <button id="theme-auto" aria-label="System Mode" class="active">
-          {% feather "monitor" %}
-        </button>
-        <button id="theme-dark" aria-label="Dark Mode">
-          {% feather "moon" %}
-        </button>
-      </div>
+      {% include "theme-toggle.njk" %}
     </nav>
 
     <div class="container">

@@ -1,0 +1,86 @@
+/* Top Bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    /* Ensures right alignment */
+    align-items: center;
+    padding: 0 2rem;
+    z-index: 100;
+    background: transparent;
+    /* Cleaner look, relying on toggle bg */
+    pointer-events: none;
+    /* Let clicks pass through the empty bar */
+}
+
+.theme-toggle {
+    pointer-events: auto;
+    /* Re-enable clicks for the toggle */
+    display: flex;
+    gap: 0.25rem;
+    background: var(--card-bg);
+    padding: 0.35rem;
+    border-radius: 99px;
+    border: 1px solid var(--nav-border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.1);
+    /* Slightly more visible on hover */
+}
+
+.theme-toggle button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--accent);
+    opacity: 0;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.theme-toggle button:hover {
+    color: var(--text-primary);
+    transform: translateY(-1px);
+}
+
+.theme-toggle button.active {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.theme-toggle button.active::before {
+    opacity: 1;
+}
+
+.theme-toggle button svg {
+    position: relative;
+    z-index: 1;
+    stroke-width: 2px;
+}

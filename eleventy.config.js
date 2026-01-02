@@ -1,3 +1,3 @@
-export default async function (eleventyConfig) {
-    // Configure Eleventy
+export default function (eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("bundle.css");
 };

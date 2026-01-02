@@ -4,6 +4,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy("favicon.png");
 
     eleventyConfig.addAsyncShortcode("image", async function (src, alt, sizes = "100vw") {
         if (alt === undefined) {

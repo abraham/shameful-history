@@ -8,7 +8,9 @@
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "format": "npx prettier . --write",
-    "lint": "npx prettier . --check",
+    "lint-md": "npx markdownlint **/*.md --ignore node_modules",
+    "lint-prettier": "npx prettier . --check",
+    "lint": "npm run lint-md && npm run lint-prettier",
     "deploy": "npx firebase deploy"
   },
   "repository": {
@@ -29,6 +31,7 @@
   "devDependencies": {
     "eleventy-plugin-feathericons": "^2.0.0",
     "firebase-tools": "^15.1.0",
+    "markdownlint-cli": "^0.47.0",
     "prettier": "3.7.4"
   }
 }

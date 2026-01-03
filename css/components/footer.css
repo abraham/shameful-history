@@ -9,9 +9,9 @@
 
 .site-footer a {
   color: var(--text-primary);
-  text-decoration: underline;
+  text-decoration: underline dotted;
   text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
   transition: color 0.2s ease;
 }
 

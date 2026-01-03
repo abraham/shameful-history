@@ -140,7 +140,8 @@
   display: inline-block;
   font-size: 0.8rem;
   color: var(--accent);
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
   font-weight: 600;
   opacity: 0.8;
   transition: opacity 0.2s ease;
@@ -148,7 +149,7 @@
 
 .source-link:hover {
   opacity: 1;
-  text-decoration: underline;
+  text-decoration: underline solid;
 }
 
 /* Animation Delays */

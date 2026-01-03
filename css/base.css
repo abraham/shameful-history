@@ -26,3 +26,9 @@ body {
     padding: 2rem 1rem;
   }
 }
+
+a {
+  color: var(--accent);
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
+}

@@ -25,19 +25,19 @@ To add a new event:
 3. Add an `image.ext` image to that directory.
 4. Add the following frontmatter to `index.md`:
 
-```yaml
----
-title: Event Title
-date: YYYY-MM-DD
-endDate: YYYY-MM-DD
-tags: event
-sourceUrl: https://en.wikipedia.org/wiki/Event_Name
-image: image.ext
-imageAttribution: Attribution for the image
-imageDescription: Description of the image for accessibility
-imageSourceUrl: https://url/to/image/source
----
-```
+   ```yaml
+   ---
+   title: Event Title
+   date: YYYY-MM-DD
+   endDate: YYYY-MM-DD
+   tags: event
+   sourceUrl: https://en.wikipedia.org/wiki/Event_Name
+   image: image.ext
+   imageAttribution: Attribution for the image
+   imageDescription: Description of the image for accessibility
+   imageSourceUrl: https://url/to/image/source
+   ---
+   ```
 
 5. Add a description of the event as the content of the file.
 

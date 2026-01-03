@@ -16,7 +16,7 @@
     "url": "git+https://github.com/abraham/shameful-history.git"
   },
   "author": "Abraham Williams",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/abraham/shameful-history/issues"
   },

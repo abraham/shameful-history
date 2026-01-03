@@ -18,6 +18,17 @@ npm start
 
 ## Contributing
 
+### Event requirements
+
+- The event must be an instance where the US government acted shamefully or through inaction allowed something shameful to happen.
+- The event must be supported by a Wikipedia article.
+
+### Requesting an event
+
+To request an event to be added, [open a new issue](https://github.com/abraham/shameful-history/issues/new).
+
+### Adding an event
+
 To add a new event:
 
 1. Create a new directory in `events/` (e.g. `events/some-event/`).
@@ -40,11 +51,7 @@ To add a new event:
    ```
 
 5. Add a description of the event as the content of the file.
-
-### Event requirements
-
-- The event must be an instance where the US government acted shamefully or through inaction allowed something shameful to happen.
-- The event must be supported by a Wikipedia article.
+6. Open a pull request.
 
 ### License
 

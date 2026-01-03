@@ -136,7 +136,8 @@
   text-justify: inter-word;
 }
 
-.source-link {
+.source-link,
+.edit-link {
   display: inline-block;
   font-size: 0.8rem;
   color: var(--accent);
@@ -147,7 +148,12 @@
   transition: opacity 0.2s ease;
 }
 
-.source-link:hover {
+.edit-link {
+  margin-right: 0.5rem;
+}
+
+.source-link:hover,
+.edit-link:hover {
   opacity: 1;
   text-decoration: underline solid;
 }

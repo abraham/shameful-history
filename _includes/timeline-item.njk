@@ -16,6 +16,7 @@
             {% endif %}
         {% endif %}
         <p>{{ post.content }}</p>
+        <a href="https://github.com/abraham/shameful-history/blob/main/{{ post.inputPath }}" class="edit-link" target="_blank" rel="noopener noreferrer">Edit</a>
         {% if post.data.sourceUrl %}
             <a href="{{ post.data.sourceUrl }}" class="source-link" target="_blank" rel="noopener noreferrer">Source</a>
         {% endif %}

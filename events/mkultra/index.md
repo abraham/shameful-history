@@ -1,7 +1,7 @@
 ---
 title: Project MKUltra
 date: 1953-04-13
-image: /events/mkultra/image.jpg
+imageExtension: jpg
 imageAttribution: US Senate (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/MKUltra
 tags:

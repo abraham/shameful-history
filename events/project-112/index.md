@@ -1,7 +1,7 @@
 ---
 title: Project 112 and Project SHAD
 date: 1962-01-01
-image: /events/project-112/image.jpg
+imageExtension: jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Project_112
 endDate: 1973-12-31

@@ -1,7 +1,7 @@
 ---
 title: Room 641A and NSA Surveillance
 date: 2003-01-01
-image: /events/room-641a/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons
 sourceUrl: https://en.wikipedia.org/wiki/Room_641A
 tags:

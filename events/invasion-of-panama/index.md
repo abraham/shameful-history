@@ -3,7 +3,7 @@ title: United States invasion of Panama
 date: 1989-12-20
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/United_States_invasion_of_Panama
-image: /events/invasion-of-panama/image.jpg
+imageExtension: jpg
 imageAttribution: US Department of Defense (via Wikimedia Commons)
 ---
 

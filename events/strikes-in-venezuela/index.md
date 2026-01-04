@@ -3,7 +3,7 @@ title: United States strikes in Venezuela
 date: 2026-01-03
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/2026_United_States_strikes_in_Venezuela
-image: /events/strikes-in-venezuela/image.png
+imageExtension: png
 imageAttribution: United States Department of Defense
 imageSourceUrl: https://commons.wikimedia.org/wiki/File:Nicolas_Maduro_on_board_the_USS_Iwo_Jima.png
 imageDescription: Nicolas Maduro on board the USS Iwo Jima

@@ -4,7 +4,7 @@ date: 1956-08-01
 endDate: 1971-04-28
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/COINTELPRO
-image: /events/cointelpro/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons
 ---
 

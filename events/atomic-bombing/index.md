@@ -3,7 +3,7 @@ title: Atomic Bombings of Hiroshima and Nagasaki
 date: 1945-08-06
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
-image: /events/atomic-bombing/image.jpg
+imageExtension: jpg
 imageAttribution: George R. Caron (Wikimedia Commons)
 ---
 

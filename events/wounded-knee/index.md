@@ -3,7 +3,7 @@ title: Wounded Knee Massacre
 date: 1890-12-29
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Wounded_Knee_Massacre
-image: /events/wounded-knee/image.jpg
+imageExtension: jpg
 imageAttribution: Trager & Kuhn (Wikimedia Commons)
 ---
 

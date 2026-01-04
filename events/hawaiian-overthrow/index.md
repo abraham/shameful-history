@@ -3,7 +3,7 @@ title: Overthrow of the Hawaiian Kingdom
 date: 1893-01-17
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Overthrow_of_the_Hawaiian_Kingdom
-image: /events/hawaiian-overthrow/image.jpg
+imageExtension: jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

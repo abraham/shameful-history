@@ -3,7 +3,7 @@ title: Mass Deportations (Second Trump Administration)
 date: 2025-01-23
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration
-image: /events/trump-deportations/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons
 ---
 

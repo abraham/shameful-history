@@ -43,7 +43,7 @@ To add a new event:
    endDate: YYYY-MM-DD
    tags: event
    sourceUrl: https://en.wikipedia.org/wiki/Event_Name
-   image: image.ext
+   imageExtension: ext
    imageAttribution: Attribution for the image
    imageDescription: Description of the image for accessibility
    imageSourceUrl: https://url/to/image/source

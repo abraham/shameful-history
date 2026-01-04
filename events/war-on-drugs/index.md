@@ -3,7 +3,7 @@ title: War on Drugs
 date: 1971-06-17
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/War_on_drugs
-image: /events/war-on-drugs/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: FBI Ignores Reports on Jeffrey Epstein
 date: 1996-01-01
-image: /events/jeffrey-epstein/image.jpg
+imageExtension: jpg
 imageAttribution: Palm Beach County Sheriff's Office (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Jeffrey_Epstein
 tags:

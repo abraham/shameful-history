@@ -1,7 +1,7 @@
 ---
 title: Military Burn Pits and Health Risks
 date: 1990-08-02
-image: /events/burn-pits/image.jpg
+imageExtension: jpg
 imageAttribution: US Marine Corps (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Burn_pit
 tags:

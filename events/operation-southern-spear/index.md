@@ -3,7 +3,7 @@ title: Operation Southern Spear Strikes
 date: 2025-09-01
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/United_States_strikes_on_alleged_drug_traffickers_during_Operation_Southern_Spear
-image: /events/operation-southern-spear/image.svg
+imageExtension: svg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

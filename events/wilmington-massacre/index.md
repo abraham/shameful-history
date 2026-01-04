@@ -3,7 +3,7 @@ title: Wilmington Massacre
 date: 1898-11-10
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Wilmington_massacre
-image: /events/wilmington-massacre/image.jpg
+imageExtension: jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

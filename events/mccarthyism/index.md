@@ -3,7 +3,7 @@ title: McCarthyism
 date: 1950-02-09
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/McCarthyism
-image: /events/mccarthyism/image.jpg
+imageExtension: jpg
 imageAttribution: United Press (Wikimedia Commons)
 ---
 

@@ -3,7 +3,7 @@ title: Tulsa Race Massacre
 date: 1921-05-31
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Tulsa_race_massacre
-image: /events/tulsa-race-massacre/image.jpg
+imageExtension: jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

@@ -2,7 +2,7 @@
 title: Operation Paperclip
 date: 1945-07-20
 endDate: 1959-12-31
-image: /events/operation-paperclip/image.jpg
+imageExtension: jpg
 imageAttribution: NASA (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Operation_Paperclip
 tags:

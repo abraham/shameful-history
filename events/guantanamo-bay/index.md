@@ -3,7 +3,7 @@ title: Guantanamo Bay Detention Camp
 date: 2002-01-11
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Guantanamo_Bay_detention_camp
-image: /events/guantanamo-bay/image.jpg
+imageExtension: jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
 ---
 

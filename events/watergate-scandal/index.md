@@ -4,7 +4,7 @@ date: 1972-06-17
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Watergate_scandal
 endDate: 1974-08-09
-image: /events/watergate-scandal/image.jpg
+imageExtension: jpg
 imageAttribution: By U.S. District Court for the District of Columbia
 ---
 

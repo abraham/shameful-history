@@ -3,7 +3,7 @@ title: Bay of Pigs Invasion
 date: 1961-04-17
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion
-image: /events/bay-of-pigs/image.jpg
+imageExtension: jpg
 imageAttribution: Panoramio (Wikimedia Commons)
 ---
 

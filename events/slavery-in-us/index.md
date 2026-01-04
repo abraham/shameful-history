@@ -4,7 +4,7 @@ date: 1619-08-20
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Slavery_in_the_United_States
 endDate: 1865-12-06
-image: /events/slavery-in-us/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons
 ---
 

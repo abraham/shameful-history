@@ -4,7 +4,7 @@ date: 1985-08-20
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
 endDate: 1987-03-04
-image: /events/iran-contra-affair/image.jpg
+imageExtension: jpg
 imageAttribution: White House / Reagan Library
 ---
 

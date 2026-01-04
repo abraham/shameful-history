@@ -4,7 +4,7 @@ date: 1882-05-06
 endDate: 1943-12-17
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/Chinese_Exclusion_Act
-image: /events/chinese-exclusion-act/image.jpg
+imageExtension: jpg
 imageAttribution: Wikimedia Commons (The Chinese Must Go - Magic Washer)
 ---
 

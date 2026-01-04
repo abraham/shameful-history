@@ -3,7 +3,7 @@ title: Gutting of USAID Budget
 date: 2025-02-07
 tags: event
 sourceUrl: https://en.wikipedia.org/wiki/United_States_Agency_for_International_Development
-image: /events/usaid-budget-cut/image.jpg
+imageExtension: jpg
 imageAttribution: Unknown (Wikimedia Commons)
 ---
 

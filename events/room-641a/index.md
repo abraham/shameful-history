@@ -4,8 +4,7 @@ date: 2003-01-01
 imageExtension: jpg
 imageAttribution: Wikimedia Commons
 sourceUrl: https://en.wikipedia.org/wiki/Room_641A
-tags:
-  - event
+tags: event
 ---
 
 Room 641A is a telecommunication interception facility operated by AT&T for the U.S. National Security Agency (NSA), located in the SBC Communications building in San Francisco, California. The room was used to intercept Internet and telephone communications passing through AT&T's network, which accounts for a significant portion of internet traffic in the United States.

@@ -4,8 +4,7 @@ date: 1996-01-01
 imageExtension: jpg
 imageAttribution: Palm Beach County Sheriff's Office (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Jeffrey_Epstein
-tags:
-  - event
+tags: event
 ---
 
 In 1996, police in Palm Beach, Florida, forwarded a report to the FBI detailing allegations that wealthy financier Jeffrey Epstein was soliciting minors for prostitution. despite the seriousness of the accusations involving underage girls, the FBI did not investigate the claims at that time.

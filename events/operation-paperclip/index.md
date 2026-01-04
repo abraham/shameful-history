@@ -5,8 +5,7 @@ endDate: 1959-12-31
 imageExtension: jpg
 imageAttribution: NASA (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Operation_Paperclip
-tags:
-  - event
+tags: event
 ---
 
 Operation Paperclip was a secret US intelligence program in which more than 1,600 German scientists, engineers, and technicians were taken from Germany to the United States for government employment, primarily between 1945 and 1959. Many of these scientists were former members of the Nazi Party and some had been leaders in the Nazi regime, including Wernher von Braun, who was a member of the SS.

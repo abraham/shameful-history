@@ -4,8 +4,7 @@ date: 1953-04-13
 imageExtension: jpg
 imageAttribution: US Senate (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/MKUltra
-tags:
-  - event
+tags: event
 ---
 
 Project MKUltra was a top-secret CIA program of illegal human experimentation on human subjects, intended to develop procedures and uncover drugs such as LSD to be used in interrogations and torture in order to weaken the individual and force confessions through brainwashing and psychological torture.

@@ -4,8 +4,7 @@ date: 2022-06-24
 imageExtension: svg
 imageAttribution: Wikimedia Commons
 sourceUrl: https://en.wikipedia.org/wiki/Roe_v._Wade
-tags:
-  - event
+tags: event
 ---
 
 On June 24, 2022, the US Supreme Court issued its ruling in _Dobbs v. Jackson Women's Health Organization_, overturning the landmark 1973 _Roe v. Wade_ decision that had established a constitutional right to abortion. This decision disregarded nearly 50 years of precedent and eliminated federal protection for abortion rights, returning the authority to ban or regulate abortion to individual states.

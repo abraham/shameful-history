@@ -3,8 +3,7 @@ title: Operation CHAOS
 date: 1967-01-01
 endDate: 1974-12-31
 sourceUrl: https://en.wikipedia.org/wiki/Operation_CHAOS
-tags:
-  - event
+tags: event
 ---
 
 Operation CHAOS was a domestic espionage project conducted by the Central Intelligence Agency (CIA) under President Lyndon B. Johnson and later expanded under President Richard Nixon. The goal was to uncover possible foreign influence on domestic anti-war and civil rights movements.

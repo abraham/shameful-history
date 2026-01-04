@@ -4,8 +4,7 @@ date: 2025-01-20
 imageExtension: jpg
 imageAttribution: The White House (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants
-tags:
-  - event
+tags: event
 ---
 
 On his first day in office for a second term, President Donald Trump signed a proclamation granting blanket clemency to nearly 1,600 people convicted of or awaiting trial for offenses related to the January 6, 2021, attack on the U.S. Capitol.

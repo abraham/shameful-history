@@ -4,8 +4,7 @@ date: 1990-08-02
 imageExtension: jpg
 imageAttribution: US Marine Corps (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Burn_pit
-tags:
-  - event
+tags: event
 ---
 
 Burn pits were a common waste disposal practice utilized by the United States military at bases in Iraq, Afghanistan, and other locations in the Middle East. Everything from plastics, batteries, medical waste, and tires to human waste was doused in jet fuel and set on fire in open-air pits.

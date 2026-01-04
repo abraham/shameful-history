@@ -5,8 +5,7 @@ imageExtension: jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
 sourceUrl: https://en.wikipedia.org/wiki/Project_112
 endDate: 1973-12-31
-tags:
-  - event
+tags: event
 ---
 
 Project 112 was a biological and chemical weapon experimentation project conducted by the United States Department of Defense from 1962 to 1973. The project involved 50 distinct experiments and included the use of various chemical and biological agents, including VX nerve gas, Sarin, and E. coli.

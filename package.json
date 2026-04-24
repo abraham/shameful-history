@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "eleventy-plugin-feathericons": "^2.0.0",
-    "firebase-tools": "^15.7.0",
+    "firebase-tools": "^15.15.0",
     "markdownlint-cli": "^0.47.0",
     "prettier": "3.8.1"
   }

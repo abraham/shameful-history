@@ -31,7 +31,7 @@
     "@11ty/eleventy-img": "^7.0.0",
     "eleventy-plugin-feathericons": "^2.0.0",
     "firebase-tools": "^15.36.0",
-    "markdownlint-cli": "^0.49.1",
+    "markdownlint-cli": "^0.50.0",
     "prettier": "3.9.10"
   }
 }

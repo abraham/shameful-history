@@ -1,5 +1,5 @@
 import { readdirSync } from 'node:fs';
-import { dirname } from 'node:path';
+import { dirname, posix } from 'node:path';
 
 const WIKIPEDIA = 'https://en.wikipedia.org/wiki/';
 
@@ -45,5 +45,17 @@ function validateEvent(data) {
 }
 
 export default {
+  // Events only render on the timeline, not as standalone pages
+  permalink: false,
+  eleventyComputed: {
+    imagePath: (data) =>
+      data.imageExtension
+        ? posix.join(
+            '/',
+            dirname(data.page.inputPath),
+            `image.${data.imageExtension}`,
+          )
+        : undefined,
+  },
   eleventyDataSchema: validateEvent,
 };

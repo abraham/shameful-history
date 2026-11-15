@@ -1,6 +1,6 @@
 # shameful-history
 
-Shameful History is a list of events where the US goverment acted shamefully or through inaction allowed something shameful to happen.
+Shameful History is a list of events where the US government acted shamefully or through inaction allowed something shameful to happen.
 
 ## Development
 

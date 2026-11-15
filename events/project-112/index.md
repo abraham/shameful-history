@@ -3,6 +3,9 @@ title: Project 112 and Project SHAD
 date: 1962-01-01
 imageExtension: jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
+imageDescription: >-
+  The USS George Eastman (YAG-39), a gray Navy ship refitted with scientific equipment for chemical and biological weapons testing, sailing near a hilly coast.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:YAG_39_USS_GEORGE_EASTMAN_(After_being_refitted_with_scientific_equipment).jpg
 sourceUrl: https://en.wikipedia.org/wiki/Project_112
 endDate: 1973-12-31
 tags: event

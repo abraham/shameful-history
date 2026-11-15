@@ -3,6 +3,9 @@ title: Pardon of January 6 Defendants
 date: 2025-01-20
 imageExtension: jpg
 imageAttribution: The White House (Wikimedia Commons)
+imageDescription: >-
+  President Donald Trump in the Oval Office holding up the signed proclamation pardoning January 6 defendants, January 20, 2025.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:President_Donald_Trump_signing_executive_orders_(01).jpg
 sourceUrl: https://en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants
 tags: event
 ---

@@ -3,6 +3,9 @@ title: Room 641A and NSA Surveillance
 date: 2003-01-01
 imageExtension: jpg
 imageAttribution: Wikimedia Commons
+imageDescription: >-
+  The closed orange door of Room 641A inside the AT&T building in San Francisco.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Room_641A_exterior.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Room_641A
 tags: event
 ---

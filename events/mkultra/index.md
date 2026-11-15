@@ -3,6 +3,9 @@ title: Project MKUltra
 date: 1953-04-13
 imageExtension: jpg
 imageAttribution: US Senate (Wikimedia Commons)
+imageDescription: >-
+  Cover of the 1977 U.S. Senate joint hearing report "Project MKULTRA, the CIA's Program of Research in Behavioral Modification".
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:ProjectMKULTRA_Senate_Report.pdf
 sourceUrl: https://en.wikipedia.org/wiki/MKUltra
 tags: event
 ---

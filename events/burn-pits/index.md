@@ -3,6 +3,9 @@ title: Military Burn Pits and Health Risks
 date: 1990-08-02
 imageExtension: jpg
 imageAttribution: US Marine Corps (Wikimedia Commons)
+imageDescription: >-
+  Smoke hanging over an open-air burn pit at a U.S. Marine Corps support area in the Saudi Arabian desert during the Gulf War, 1991.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Burn_Pits_in_1st_Marine_Division_Support_Area_in_Saudi_Arabia_during_the_Gulf_War,_1991.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Burn_pit
 tags: event
 ---

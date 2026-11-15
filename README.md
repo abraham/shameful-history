@@ -45,8 +45,8 @@ To add a new event:
    sourceUrl: https://en.wikipedia.org/wiki/Event_Name
    imageExtension: ext # required when the event has an image
    imageAttribution: Attribution for the image # required when the event has an image
-   imageDescription: Description of the image for accessibility
-   imageSourceUrl: https://url/to/image/source
+   imageDescription: Description of the image for accessibility # required when the event has an image
+   imageSourceUrl: https://url/to/image/source # required when the event has an image
    ---
    ```
 

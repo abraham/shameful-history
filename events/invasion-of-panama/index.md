@@ -5,6 +5,9 @@ tags: event
 sourceUrl: https://en.wikipedia.org/wiki/United_States_invasion_of_Panama
 imageExtension: jpg
 imageAttribution: US Department of Defense (via Wikimedia Commons)
+imageDescription: >-
+  A U.S. M113 armored personnel carrier parked in front of damaged storefronts in Panama City during the 1989 invasion.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:PanamaM-113JustCauseUS-Invasion.jpg
 ---
 
 The United States invasion of Panama, codenamed "Operation Just Cause," began on December 20, 1989. The primary goals included removing Panama's de facto ruler, General Manuel Noriega, from power and extraditing him to the United States to face charges of drug trafficking and money laundering. The invasion involved approximately 26,000 U.S. troops and resulted in significant civilian casualties and property damage.

@@ -5,6 +5,9 @@ tags: event
 sourceUrl: https://en.wikipedia.org/wiki/United_States_strikes_on_alleged_drug_traffickers_during_Operation_Southern_Spear
 imageExtension: svg
 imageAttribution: Unknown (Wikimedia Commons)
+imageDescription: >-
+  Map of the coast between Venezuela and Trinidad showing a speedboat's path from San Juan de Unare and the approximate location of the U.S. airstrike on it, September 1, 2025.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Path_and_airstrike_of_Venezuelan_speedboat_-_1_September_2025.svg
 ---
 
 On September 1, 2025, the United States conducted airstrikes on an alleged drug smuggling speedboat off the coast of Venezuela as part of Operation Southern Spear. The operation was aimed at disrupting narcotics trafficking in the Caribbean. The strikes resulted in the destruction of the vessel and the deaths of its occupants, drawing international criticism and escalating tensions in the region.

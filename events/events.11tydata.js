@@ -37,6 +37,12 @@ function validateEvent(data) {
     if (!data.imageAttribution) {
       errors.push('`imageAttribution` is required with an image');
     }
+    if (!data.imageDescription) {
+      errors.push('`imageDescription` is required with an image');
+    }
+    if (!data.imageSourceUrl) {
+      errors.push('`imageSourceUrl` is required with an image');
+    }
   } else if (images.length > 0) {
     errors.push(`\`imageExtension\` is required for ${images.join(', ')}`);
   }

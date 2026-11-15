@@ -8,6 +8,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyPluginFeathericons);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // Content-hashed output, cached as immutable in firebase.json
+    urlPath: '/img/optimized/',
+    outputDir: '_site/img/optimized/',
     // Output formats
     // formats: ['avif', 'webp', 'jpeg', 'svg'],
     // Output widths

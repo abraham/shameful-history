@@ -6,7 +6,8 @@ export default function (eleventyConfig) {
   eleventyConfig.ignores.add('LICENSE.md');
   eleventyConfig.addWatchTarget('css/');
   eleventyConfig.addPassthroughCopy('img');
-  eleventyConfig.addPassthroughCopy('favicon.png');
+  eleventyConfig.addPassthroughCopy('favicon.ico');
+  eleventyConfig.addPassthroughCopy('apple-touch-icon.png');
 
   eleventyConfig.addPlugin(eleventyPluginFeathericons);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {

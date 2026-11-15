@@ -3,6 +3,9 @@ title: Overturning of Roe v. Wade
 date: 2022-06-24
 imageExtension: svg
 imageAttribution: Wikimedia Commons
+imageDescription: >-
+  Map of the United States color-coded by state abortion laws before Roe v. Wade, with abortion illegal in most states and legal on request in only a few.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Map_of_US_abortion_laws_pre-1973.svg
 sourceUrl: https://en.wikipedia.org/wiki/Roe_v._Wade
 tags: event
 ---

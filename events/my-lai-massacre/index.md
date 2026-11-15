@@ -3,6 +3,9 @@ title: My Lai Massacre
 date: 1968-03-16
 imageExtension: jpg
 imageAttribution: Ronald L. Haeberle
+imageDescription: >-
+  Bodies of Vietnamese women and children lying on a dirt road in My Lai after the massacre by U.S. soldiers, March 1968.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:My_Lai_massacre.jpg
 sourceUrl: https://en.wikipedia.org/wiki/My_Lai_massacre
 tags: event
 ---

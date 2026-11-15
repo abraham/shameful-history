@@ -3,6 +3,9 @@ title: Tuskegee Syphilis Study
 date: 1932-01-01
 imageExtension: jpg
 imageAttribution: National Archives
+imageDescription: >-
+  A government doctor drawing blood from a Black man enrolled in the Tuskegee syphilis study.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Tuskegee_study.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study
 endDate: 1972-11-16
 tags: event

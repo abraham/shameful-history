@@ -3,6 +3,9 @@ title: FBI Ignores Reports on Jeffrey Epstein
 date: 1996-01-01
 imageExtension: jpg
 imageAttribution: Palm Beach County Sheriff's Office (Wikimedia Commons)
+imageDescription: >-
+  Police mug shot of Jeffrey Epstein, a gray-haired man in a white shirt, taken by the Palm Beach County Sheriff's Office.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Jeffrey_Epstein_mug_shot.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Jeffrey_Epstein
 tags: event
 ---

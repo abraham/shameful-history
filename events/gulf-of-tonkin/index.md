@@ -3,6 +3,9 @@ title: Gulf of Tonkin Incident
 date: 1964-08-02
 imageExtension: jpg
 imageAttribution: U.S. Navy (Wikimedia Commons)
+imageDescription: >-
+  Grainy photo taken from USS Maddox of three North Vietnamese torpedo boats on the horizon, August 1964.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:Tonkingunboats.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
 tags: event
 ---

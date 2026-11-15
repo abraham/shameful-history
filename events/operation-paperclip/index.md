@@ -4,6 +4,9 @@ date: 1945-07-20
 endDate: 1959-12-31
 imageExtension: jpg
 imageAttribution: NASA (Wikimedia Commons)
+imageDescription: >-
+  President John F. Kennedy, Vice President Lyndon Johnson, and NASA officials receiving a briefing during a tour of the Cape Canaveral Missile Test Annex, 1962.
+imageSourceUrl: https://commons.wikimedia.org/wiki/File:JFK_Tour_of_KSC_-_GPN-2000-000605.jpg
 sourceUrl: https://en.wikipedia.org/wiki/Operation_Paperclip
 tags: event
 ---

@@ -40,18 +40,19 @@ To add a new event:
    ---
    title: Event Title
    date: YYYY-MM-DD
-   endDate: YYYY-MM-DD
+   endDate: YYYY-MM-DD # optional, for events spanning a range
    tags: event
    sourceUrl: https://en.wikipedia.org/wiki/Event_Name
-   imageExtension: ext
-   imageAttribution: Attribution for the image
+   imageExtension: ext # required when the event has an image
+   imageAttribution: Attribution for the image # required when the event has an image
    imageDescription: Description of the image for accessibility
    imageSourceUrl: https://url/to/image/source
    ---
    ```
 
 5. Add a description of the event as the content of the file.
-6. Open a pull request.
+6. Run `npm run build` to check the frontmatter.
+7. Open a pull request.
 
 ### License
 

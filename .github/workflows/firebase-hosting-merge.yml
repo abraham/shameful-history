@@ -9,6 +9,10 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -16,9 +20,14 @@ jobs:
           node-version-file: package.json
       - run: npm ci
       - run: npm run build
+      - id: wif
+        uses: abraham/firebase-wif@v0.3.1
+        with:
+          workload_identity_provider: ${{ vars.FIREBASE_WIF_PROVIDER }}
+          service_account: ${{ vars.FIREBASE_WIF_SERVICE_ACCOUNT }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SHAMEFUL_HISTORY }}
+          firebaseServiceAccount: ${{ steps.wif.outputs.credentials_json }}
           channelId: live
           projectId: shameful-history

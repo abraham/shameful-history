@@ -2,8 +2,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import eleventyPluginFeathericons from 'eleventy-plugin-feathericons';
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('bundle.css');
-  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addWatchTarget('css/');
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('favicon.png');
 

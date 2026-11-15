@@ -6,10 +6,10 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "format": "prettier . --write",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lint-md": "markdownlint \"**/*.md\" --ignore node_modules",
-    "lint-prettier": "prettier . --check",
-    "lint": "npm run lint-md && npm run lint-prettier",
+    "lint": "npm run lint-md && npm run format:check",
     "deploy": "firebase deploy"
   },
   "repository": {

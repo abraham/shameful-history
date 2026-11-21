@@ -27,7 +27,7 @@
     "node": "26"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.7",
+    "@11ty/eleventy": "^3.1.8",
     "@11ty/eleventy-img": "^7.0.0",
     "eleventy-plugin-feathericons": "^2.0.0",
     "firebase-tools": "^15.36.0",
